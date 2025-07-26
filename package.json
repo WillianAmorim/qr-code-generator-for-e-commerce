@@ -1,0 +1,26 @@
+{
+  "name": "qr-code-generator-for-e-commerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WillianAmorim/qr-code-generator-for-e-commerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WillianAmorim/qr-code-generator-for-e-commerce/issues"
+  },
+  "homepage": "https://github.com/WillianAmorim/qr-code-generator-for-e-commerce#readme",
+  "description": "kit de utilidades para e-comerces",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
